@@ -1,0 +1,25 @@
+#presentacion{
+    height: 60vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url(assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.proyecto{
+    background-size: contain;
+    background-position: center;
+
+}
+
+#proyecto-1{
+    background-image: url(assets/image-removebg-preview.png);
+}
+
+.text-shadow-1 {
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
+
