@@ -1,5 +1,25 @@
+body{
+        font-family: "Zain", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+}
+
+body h2{
+    color: rgb(42, 110, 112);
+    font-style: bold;
+}
+
+body h3{
+    color: rgb(42, 110, 112);
+    font-style: bold;
+}
+
+#frase{
+    color: palevioletred;
+}
+
 #presentacion{
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -7,6 +27,32 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.navbar{
+    background-color: rgb(160, 212, 214);
+}
+.footer{
+    background-color: rgb(160, 212, 214) !important; 
+}
+.shadow-top {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icono{
+    background-color: rgb(243, 196, 67); /* Cambia el fondo a rosa */
+    color: white;
+    padding: 7px;
+}
+.icono2{
+    background-color: rgb(109, 241, 109);
+    color: white;
+    padding: 7px;
+}
+.icono3{
+    background-color: rgb(91, 214, 188);
+    color: white;
+    padding: 7px;
 }
 
 .proyecto{
