@@ -38,7 +38,7 @@
                     <a class="nav-link text-white" href="#testimonios">Testimonios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true" href="#info">Sobre mí</a>
+                    <a class="nav-link" aria-disabled="true" href="#info" id="gris">Sobre mí</a>
                   </li>
                   <div class="d-flex justify-content-end ps-5">
                     <li class="nav-item">
@@ -52,33 +52,34 @@
     </header>
     <main>
         <section id="presentacion" class="container-fluid px-4 py-5 shadow-lg">
-          <div class="row flex-lg-row align-items-center g-4 p-5">
-              <div class="col-lg-8">
+          <div class="container px-4 py-5">
+              <div class="col-lg-6">
                   <h1 id="app" class="display-5 fw-bold text-white lh-1 mb-3 text-shadow-1">Jazmin Mercado</h1>
                   <p class="lead text-white">¡Hola! Mi nombre es Jazmin</p>
                   <p class="lead text-white">Soy estudiante de 5º cuatrimestre en la carrera de Desarrollo de Software Multiplataforma en la Universidad Tecnológica de Jalisco. Disfruto mucho de aprender cosas nuevas.</p>
                   <p class="lead text-white"> ¿Quieres conocer mi trayectoria académica y profesional? </p>
                   <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-outline-info fs-5"><a href="#contacto" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">¡Contactame!</a></button>
+                  <button type="button" class="btn btn-outline-info fs-5"><a href="https://github.com/MinMercado" target="_blank" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">¡Contactame!</a></button>
                 </div>
               </div>
-            </div>
+          </div>
         </section>
 
         <section id="habilidades" class="container px-4 py-5">
             <!--Titulo de mi sección-->
             <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <p class="lead">Mis experiencias me han permitido reconocer mis habilidades técnicas y blandas, preparándome para enfrentar desafíos en el entorno profesional y contribuyendo significativamente a mi desarrollo personal y profesional... Entre ellas destacan:
+            </p>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-              
               <div class="feature col">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center icono bg-gradient fs-2 mb-3 rounded">
                  <!--Icono es el i -->
                  <i class="bi bi-paint-bucket"></i>
                 </div>
-                <h3 class="fs-2">Desarrollo Web FrontEnd</h3>
+                <h3 class="fs-2">Desarrollo Web Frontend</h3>
                 <p class="lead">Me preocupo por hacer que las páginas web sean visualmente atractivas e intuitivas. Tengo conocimientos en HTML, JavaScript, CSS y manejo de frameworks como Bootstrap.</p>
                 <a href="https://github.com/MinMercado" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank">
-                  Visita GibHub para conocer mi trabajo
+                  Visita GitHub para conocer mi trabajo
                 </a>
               </div>
               
@@ -88,8 +89,8 @@
                 </div>
                 <h3 class="fs-2">Trabajo en equipo</h3>
                 <p class="lead">En los equipos, las cosas a veces cambian rápidamente. Me adapto a nuevas situaciones y ajusto mis aportaciones para ayudar al equipo a superar cualquier desafío.</p>
-                <a href="#" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
-                  Visita GibHub para conocer mi trabajo
+                <a href="https://github.com/MinMercado" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank">
+                  Visita GitHub para conocer mi trabajo
                   <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                 </a>
               </div>
@@ -98,10 +99,10 @@
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center icono3 bg-gradient fs-2 mb-3 rounded">
                 <i class="bi bi-clipboard-check"></i>
                 </div>
-                <h3 class="fs-2">Responsabilidad</h3>
-                <p class="lead">La responsabilidad también implica cuidar los detalles y verificar que todo esté correcto, incluyendo tiempos de entrega incluso antes de finalizar una tarea. A veces demasiado minuciosa...</p>
-                <a href="#" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
-                  Visita GibHub para conocer mi trabajo
+                <h3 class="fs-2">Optimización de procesos</h3>
+                <p class="lead">Mi proactividad me permite buscar la implementación de mejoras en los procesos de captura, programación y manejo de datos en mis áreas de trabajo, con ello fue más efectiva y precisa la información manejada. </p>
+                <a href="https://github.com/MinMercado" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank">
+                  Visita GitHub para conocer mi trabajo
                   <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                 </a>
               </div>
@@ -112,11 +113,12 @@
 
         <section id="proyectos" class="container px-4 pb-5 ps-0">
           <h2 class="pb-2 border-bottom">Proyectos</h2>
+          <p class="lead">Estos proyectos me han permitido obtener habilidades en está área, pues impulsaron mi creatividad y mi con ellos conocí herramientas como HTML, CSS, JS y Bootstrap</p>
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
               <div class="col">
                 <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/inicio.png');">
                   <div class="d-flex flex-column h-100 p-5 pb-3">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="https://mi-ink.netlify.app/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Light link</a></p>>Blog Web Mi-Ink</a></h3>
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="https://mi-ink.netlify.app/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Blog Web Mi-Ink</a></h3>
                     <ul class="d-flex list-unstyled mt-auto">
                     </ul>
                   </div>
@@ -125,7 +127,7 @@
               <div class="col">
                 <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/clon.png');">
                   <div class="d-flex flex-column h-100 p-5 pb-3 ">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="https://googleclon-tcpro.netlify.app/"  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Light link</a></p>>Clon de Google</a></h3>
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="https://googleclon-tcpro.netlify.app/"  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Clon de Google</a></h3>
                     <ul class="d-flex list-unstyled mt-auto">
                     </ul>
                   </div>
@@ -175,10 +177,10 @@
           </div>
         </section>
 
-        <section>
-          <div id="info" class="container px-4 py-5">
+        <section id="info">
+          <div class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">¿Quieres saber un poco sobre mí?</h2>
-              <p class="text-center lead">Me encanta plasmar mi creatividad en mis tiempos libres, disfruto de muchas actividades pero tres de ellas le han dado un proposito a mi vida...</p>
+              <p class="text-center lead">Me considero una persona muy empática y emocional, me encanta plasmar mi creatividad en mis tiempos libres, disfruto de muchas actividades como el deporte, las actividades al aire libre, el senderismo... tres de ellas le han dado un propósito a mi vida.</p>
               <div class="row text-center">
                 <div class="col-lg-4">
                   <img src="assets/maniqui.jpg" width="140" height="140" alt="" class="bd-placeholder-img rounded-circle">
